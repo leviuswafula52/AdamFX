@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #007BFF, #00BFFF);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+header h1 i {
+    margin-right: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+.cta-button {
+    background: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #ff4a3d;
+}
+
+.cta-button i {
+    margin-right: 8px;
+}
+
+.event-details {
+    padding: 50px 20px;
+    background: white;
+    text-align: center;
+}
+
+.event-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.event-details h2 i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.detail-item {
+    background: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.detail-item:hover {
+    transform: translateY(-10px);
+}
+
+.detail-item i {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.detail-item p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.registration-form {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #007BFF, #00BFFF);
+    color: white;
+    text-align: center;
+}
+
+.registration-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.registration-form h2 i {
+    margin-right: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group label i {
+    margin-right: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-button {
+    background: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background: #ff4a3d;
+}
+
+.submit-button i {
+    margin-right: 8px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
