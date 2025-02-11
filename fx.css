@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #007BFF, #00BFFF);
+    background: linear-gradient(135deg, #163555, #692566);
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -117,7 +117,7 @@ header p {
 
 .registration-form {
     padding: 50px 20px;
-    background: linear-gradient(135deg, #007BFF, #00BFFF);
+    background: linear-gradient(135deg, #0e66c4, #095c2b);
     color: white;
     text-align: center;
 }
@@ -176,7 +176,7 @@ header p {
 }
 
 footer {
-    background: #333;
+    background: #0e4a99;
     color: white;
     text-align: center;
     padding: 20px;
@@ -195,4 +195,31 @@ footer i {
     to {
         opacity: 1;
     }
+}
+header h1 i {
+    margin-right: 10px;
+    color: #ff6f61; /* Example: Change icon color */
+    font-size: 2.5rem; /* Example: Adjust icon size */
+}
+.radio-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+    color: #333;
 }
