@@ -1,0 +1,2 @@
+# AdamFX
+forex trading event
