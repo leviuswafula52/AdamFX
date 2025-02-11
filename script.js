@@ -4,7 +4,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     const form = event.target;
     const formData = new FormData(form);
 
-    fetch('https://formspree.io/f/your-formspree-endpoint', {
+    fetch('https://formspree.io/f/xnnjbpew', {
         method: 'POST',
         body: formData,
         headers: {
